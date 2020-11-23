@@ -24,7 +24,7 @@ wsdl2h -o -s -t typemap.dat -o onvif.h  http://www.onvif.org/onvif/ver10/device/
 cmd-produce-c/cpp:
 --------------------------------------------------------
 soapcpp2 -c  onvif.h -x -I ../gsoap-2.8/gsoap/import -I ../gsoap-2.8/gsoap
-################################################################################
+##############################################################################
 soapcpp2 onvif.h -x -I ../gsoap-2.8/gsoap/import -I ../gsoap-2.8/gsoap
 
 ----------------------------------------------------------
